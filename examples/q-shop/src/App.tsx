@@ -18,7 +18,7 @@ import { ProductManager } from "./pages/ProductManager/ProductManager";
 function App() {
   // const themeColor = window._qdnTheme
 
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState(_qdnTheme);
 
   return (
     <Provider store={store}>
